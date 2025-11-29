@@ -130,10 +130,10 @@ if (formOcorrencia) {
     }
 
     // Verificar se a geolocalização foi usada
-    if (!lat || !lng) {
+    /*if (!lat || !lng) {
       alert("⚠️ Clique em 'Usar minha localização' antes de registrar.");
       return;
-    }
+    }*/
 
     // Criar objeto da ocorrência
     const novaOcorrencia = {
